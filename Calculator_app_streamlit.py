@@ -20,7 +20,7 @@ def calculate(num1, num2, operator):
         return f"An error occurred: {e}"
 
 # Streamlit UI
-st.set_page_config(page_title="Prem Mohan's Calculator", page_icon="🧮", layout="wide")
+st.markdown("<h1 style='text-align: center; color: #4CAF50;'>Welcome to Prem Mohan's Calculator</h1>", unsafe_allow_html=True)
 st.title("📱 Friendly Calculator")
 
 # Input fields for numbers and operator
