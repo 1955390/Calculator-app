@@ -20,6 +20,7 @@ def calculate(num1, num2, operator):
         return f"An error occurred: {e}"
 
 # Streamlit UI
+st.subheader("Welcome to Prem Mohan's Calculator")
 st.title("📱 Friendly Calculator")
 
 # Input fields for numbers and operator
